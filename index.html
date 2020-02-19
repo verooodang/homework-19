@@ -1,0 +1,212 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Fascinate+Inline|Libre+Baskerville|Offside|Overlock&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ewert|Share+Tech+Mono|Monofett|Roboto+Slab:400,900|Sacramento|Titillium+Web:400,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light customNav sticky-top">
+        <a class="navbar-brand" href="#"><img src="images/aboutme.png" id="navPic" width="30" height="30" class="d-inline-block align-top" alt="">
+                Veronica Dang </a>
+            
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="#navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Work <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">About Me </a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Contact </a>
+            </li>
+            <form class="form-inline">
+                <button class="btn btn-outline-light" data-toggle="modal" data-target="#myModal" type="button">Hire Me</button>
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      </div>
+                      <h4 class="modal-title" id="myModalLabel">Contact Me!</h4>
+                      <div class="modal-body">
+                        <form>
+                          <div class="form-group">
+                            <label for="exampleFormControlInput1">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                          </div>  
+                          <div class="form-group">
+                            <label for="exampleFormControlType1">Job Title</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="UX/UI Design Website">
+                          </div> 
+                          <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Job Description</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Send</button>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+             </form>
+            </ul>
+            
+        </div>
+ </nav>
+
+<section class="hero">
+    <div class="jumbotron hero1">
+      <h1 class="display-4">U.S. Department of Education</h1>
+      <h2 class="display-5">Website Redesign</h2>
+    </div>   
+</section>
+
+<section class="problem">
+    <div class="card mb-3">
+        <img src="images/before.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">The Problem</h5>
+          <p class="card-text">Navigating through the Department of Education website is frustrating. There are too many links that blend in with text along with an overwhelming amount of information. How can we make this site more user friendly, accessible and visually appealing? </p>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <img src="images/after.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">The Solution</h5>
+          <p class="card-text">Through research, guerrilla usability testing, and many hours of redesigning, we modernized the site and prioritized student/teacher usability and accessibility to the Department of Education’s vast amount of valuable information.</p>
+        </div>
+      </div>
+</section>
+
+<section class="discoveryPhase">
+    <h3>The Discovery Phase</h3>
+    <div class="research">
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    Heuristic Analysis
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                  <img src="images/heuristic.jpg" id="img1">
+                </div>
+              </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Color Test
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                  <div class="card-body">
+                    <img src="images/colortest.jpg" id="img2">
+                  </div>
+                </div>
+              </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      User Flow
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                    <img src="images/userflow.jpg" id="img3">
+                  </div>
+                </div>
+              </div>
+          </div>
+    </div>
+</section>
+
+<section class="steps">
+  <h3>The Process</h3>
+  <div class="tabs">
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="test-tab" data-toggle="tab" href="#usertest" role="tab" aria-controls="home" aria-selected="true">User Testing</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="sitemap-tab" data-toggle="tab" href="#sitemap" role="tab" aria-controls="profile" aria-selected="false">Sitemap</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="frame-tab" data-toggle="tab" href="#wireframe" role="tab" aria-controls="contact" aria-selected="false">Wireframes</a>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="usertest" role="tabpanel" aria-labelledby="test-tab">
+          <img src="images/Guerilla User Test Map.png">
+      </div>
+      <div class="tab-pane fade" id="sitemap" role="tabpanel" aria-labelledby="sitemap-tab">
+          <img src="images/sitemap.jpg">
+      </div>
+      <div class="tab-pane fade" id="wireframe" role="tabpanel" aria-labelledby="frame-tab">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="finalOutcome">
+    <div class="mockups">
+        <h3>The Final Outcome </h3>
+        <div class="container mockupVersions">
+            <div class="row">
+              <div class="col-md-3">
+                1 of 2
+              </div>
+              <div class="col-md-9">
+                <img src="images/mockup1.jpg" id="img4">
+              </div>
+            </div>
+        </div>
+        <div class="container responsiveMockup">
+            <div class="row">
+              <div class="col-md-9">
+                <img src="images/responsive-mocks.jpg" id="img5">
+              </div>
+              <div class="col-md-3">
+                2 of 2
+              </div>
+            </div>
+        </div>
+        <div class="container mobileMockup">
+            <div class="row">
+              <div class="col-md-3">
+                1 of 2
+              </div>
+              <div class="col-md-9">
+                <img src="images/mobile-mockups.jpg" id="img6">
+              </div>
+            </div>
+        </div>
+
+</section>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="js/index.js"></script>  
+</body>
+</html>
